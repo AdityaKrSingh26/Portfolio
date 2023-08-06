@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-3, #EEE);
+  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--color-1, #222831);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-section {
+  min-height: 100vh;
+  padding: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info {
+  padding: 0px 30px;
+  font-size: larger;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info h1 {
+  font-size: xxx-large;
+}
+
+.info p {
+  font-size: medium;
+}
+
+.image-cantainer {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.image-cantainer img {
+  height: 400px;
+  width: 400px;
+}
+
+
+
+
+.about {
+  padding: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-img {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.about-img img {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.about-text {
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  height: 400px;
+  width: 400px;
+}
+
+.about-text p {
+  font-size: small;
+}
+
+
+
+
+
+.card {
+  margin: 20px 0px;
+  height: 250px;
+  width: 200px;
+  border-radius: 15px;
+  background-color: #393E46;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card img {
+  width: 200px;
+}
+
+.text-info {
+  padding: 10px 5px;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+.skills,
+.projects {
+  padding: 40px 0px;
+}
+
+.cards,
+.cards-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  padding: 40px 0px;
+  font-size: x-large;
+}
+
+
+
+
+
+
+
+.contact {
+  padding: 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact img {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.inputs,
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  align-items: center;
+}
+
+.text {
+  padding: 10px;
+  font-weight: 700;
+}
+
+#name,
+#email {
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 300px;
+  color: black;
+}
+
+#description {
+  color: black;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  height: 100px;
+  width: 300px;
+}
+
+#submit {
+  height: 40px;
+  width: 90px;
+  border-radius: 15px;
+  border: none;
+  color: #222831;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #00ADB5;
+  transition: transform 0.2s ease-in-out
+}
+
+#submit:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  /* border-top: 2px solid #393E46; */
+  /* height: 200px; */
+  padding: 50px 0px 10px;
+
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icons img {
+  height: 40px;
+}
+
+.privacy {
+  font-size: small;
+  padding-right: 20px;
+  text-align: right;
+}
